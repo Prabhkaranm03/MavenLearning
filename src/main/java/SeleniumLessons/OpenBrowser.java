@@ -16,8 +16,6 @@ public class OpenBrowser {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.co.in");
-		WebElement searchBox = driver.findElement(By.name("q"));
-		searchBox.sendKeys("imdb"+Keys.ENTER);
 		System.out.println(driver.getTitle());
 		driver.close();
 	}
