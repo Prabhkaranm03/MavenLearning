@@ -18,6 +18,7 @@ public class OpenBrowser {
 		driver.get("https://www.google.co.in");
 		System.out.println(driver.getTitle());
 		driver.close();
+
 	}
 
 }
